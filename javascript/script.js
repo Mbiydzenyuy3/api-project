@@ -16,4 +16,4 @@ fetch(`https://www.swapi.tech/api/films`)
       charNameFive.innerHTML = data.result[4].properties.title
       charNameSix.innerHTML = data.result[5].properties.title
     }
-})
+  })
